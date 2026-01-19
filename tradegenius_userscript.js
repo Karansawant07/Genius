@@ -23,6 +23,7 @@
         waitAfterSearch: 2000,
         waitAfterP3: 1500,
         waitAfterMax: 1000,
+        waitBeforeConfirm: 5000,        // 点击 Confirm 前的缓冲等待
         waitAfterConfirm: 3000,
         waitAfterClose: 1500,
         waitBetweenRounds: 8000,
@@ -471,6 +472,9 @@
                 }
 
                 // 4. 点击 Confirm
+                log('等待 5 秒缓冲...', 'info');
+                await sleep(CONFIG.waitBeforeConfirm);
+
                 let confirmClicked = false;
 
                 for (let i = 0; i < CONFIG.maxRetryConfirm; i++) {
