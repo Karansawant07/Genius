@@ -267,20 +267,18 @@
         // 查找包含目标代币的行
         for (let i = 0; i < rows.length; i++) {
             const row = rows[i];
-            const text = row.textContent || '';
 
-            // 检查是否包含代币符号和价格符号（确保是代币行）
-            const hasUSDT = text.includes('USDT');
-            const hasUSDC = text.includes('USDC');
-            const hasPrice = text.includes('$');
+            // 查找代币符号元素（更精确的方法）
+            const symbolEl = row.querySelector('.text-xs.text-genius-cream\\/60');
+            const symbol = symbolEl?.innerText?.trim();
 
-            if (targetToken === 'USDT' && hasUSDT && !hasUSDC && hasPrice) {
+            // 检查是否有价格信息（确保是代币行）
+            const hasPrice = row.textContent.includes('$');
+
+            // 精确匹配目标代币
+            if (symbol === targetToken && hasPrice) {
                 targetRow = row;
-                log(`✓ 找到 USDT 代币行`, 'success');
-                break;
-            } else if (targetToken === 'USDC' && hasUSDC && !hasUSDT && hasPrice) {
-                targetRow = row;
-                log(`✓ 找到 USDC 代币行`, 'success');
+                log(`✓ 找到 ${targetToken} 代币行`, 'success');
                 break;
             }
         }
